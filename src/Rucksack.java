@@ -18,6 +18,7 @@ public class Rucksack {
             public int compare(Item o1, Item o2) {
                 return (int) (o2.price*1000 - o1.price*1000);
             }
+
         });
         double result = 0;
         double load = 0;
