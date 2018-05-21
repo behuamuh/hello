@@ -35,6 +35,7 @@ class CodeTree{
             }
             if (point.rigth == null)
                 return;
+
             else {
                 char sym = point.rigth.sym;
                 if (sym == 'U')
