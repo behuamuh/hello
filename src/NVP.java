@@ -22,7 +22,7 @@ public class NVP {
         for (int i = 0; i < arr.length; i++){
             temp[i] = 1;
             for (int j = 0; j <= i - 1; j++){
-                if (arr[i] / arr[j] > 1 && arr[i] % arr[j] == 0)
+                if (arr[i] / arr[j] > 0 && arr[i] % arr[j] == 0)
                     if(temp[j] + 1 > temp[i])
                         temp[i] = temp[j] + 1;
             }
